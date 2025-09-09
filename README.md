@@ -77,10 +77,10 @@
 
 ---
 ## Videos 
-- 🎬 [Final Test Video](steady_stride_v0/Documentation/Test Videos - According to S.No in PPT/Final Test.mp4)
-- 
-- 🎬 [Working of Gripper](steady_stride_v0/Documentation/Test Videos - According to S.No in PPT/Working Of Gripper.mp4)
 
+[![Final Test Video](steady_stride_v0/Documentation/Test Videos - According to S.No in PPT/Photos/Cover Photo_1.jpg)](https://github.com/Manas-arumalla/Steady-Stride_Self-balancing-robot/blob/main/steady_stride_v0/Documentation/Test%20Videos%20-%20According%20to%20S.No%20in%20PPT/Final%20Test.mp4)
+
+[![Working of Gripper](steady_stride_v0/Documentation/Test Videos - According to S.No in PPT/Photos/Cover Photo_2.jpg)](https://github.com/Manas-arumalla/Steady-Stride_Self-balancing-robot/blob/main/steady_stride_v0/Documentation/Test%20Videos%20-%20According%20to%20S.No%20in%20PPT/Working%20Of%20Gripper.mp4)
 
 ---
 ## How to run the Arduino code (short)
