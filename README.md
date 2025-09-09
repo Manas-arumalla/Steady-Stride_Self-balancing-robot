@@ -62,9 +62,9 @@
 ---
 
 ## Suggested images / assets to include (filenames)
-Add these to `assets/` so the README can show them:
 
-- `assets/photos/prototype_front.jpg` — front view of the Mk7 prototype.   
+- ![Prototype front view — Steady-Stride](assets/photos/prototype_front.jpg "front view of the prototype")
+ 
 - `assets/photos/prototype_side.jpg` — side view with arm and electronics visible.   
 - `assets/diagrams/block_diagram.png` — IMU → controller → motor driver → wheels loop. (Generate from draw.io)   
 - `assets/diagrams/electrical_schematic.png` — integrated circuit diagram from the PPT/report.   
