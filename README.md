@@ -52,7 +52,7 @@
 
 ---
 
-## How to reproduce the plots (quick)
+## How to reproduce the plots
 1. Open `matlab/angle_only_lqr_ga.m` in MATLAB (this is your GA + LQR script).
 2. Run the script — it computes `K` via `lqr(...)` and simulates a small initial tilt (e.g. `x0 = [0;0;0.1;0]`), then plots `φ(t)` (pendulum angle vs time). The script also prints the optimized `q_phi`. 
 3. Save the produced figure as `assets/plots/lqr_phi_response.png` and commit it.
@@ -60,22 +60,29 @@
 *(Tip: also export `phi` vs `time`, `control effort u` vs `time`, and a comparative plot of PID vs LQR vs Pole-placement for README.)*
 
 ---
+## Prototype photos
+<p align="center">
+  <img src="steady_stride_v0/Documentation/Test Videos - According to S.No in PPT/Photos/Cover Photo_1.jpg" 
+       alt="Front View" width="600"/>
+  <br>
+  <em>Figure 1 — Front View</em>
+</p>
 
-## Suggested images / assets to include (filenames)
-
-- ![Prototype front view — Steady-Stride](assets/photos/prototype_front.jpg "front view of the prototype")
- 
-- `assets/photos/prototype_side.jpg` — side view with arm and electronics visible.   
-- `assets/diagrams/block_diagram.png` — IMU → controller → motor driver → wheels loop. (Generate from draw.io)   
-- `assets/diagrams/electrical_schematic.png` — integrated circuit diagram from the PPT/report.   
-- `assets/plots/lqr_phi_response.png` — MATLAB LQR pendulum angle vs time (from `angle_only_lqr_ga.m`).   
-- `assets/plots/step_response_compare.png` — comparison: LQR vs Pole-placement step responses (from report figures).   
-- `assets/photos/gripper_closeup.jpg` — 4-claw gripper picture. 
-
-Use these image paths in the README so GitHub renders them.
+<p align="center">
+  <img src="steady_stride_v0/Documentation/Test Videos - According to S.No in PPT/Photos/Cover Photo_2.jpg" 
+       alt="Side View" width="600"/>
+  <br>
+  <em>Figure 2 — Side View</em>
+</p>
 
 ---
+## Videos 
+- 🎬 [Final Test Video](steady_stride_v0/Documentation/Test Videos - According to S.No in PPT/Final Test.mp4)
+- 
+- 🎬 [Working of Gripper](steady_stride_v0/Documentation/Test Videos - According to S.No in PPT/Working Of Gripper.mp4)
 
+
+---
 ## How to run the Arduino code (short)
 1. Open the relevant Arduino sketch in the `arduino/` folder.
 2. Install libraries:
