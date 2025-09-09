@@ -44,6 +44,26 @@
 
 ---
 
+## Photos
+<p align="center">
+  <img src="steady_stride_v0/Documentation/Test Videos - According to S.No in PPT/Photos/Circuit.png" 
+       alt="Circuit Diagram" width="600"/>
+  <br><em>Circuit Diagram</em>
+</p>
+
+<p align="center">
+  <img src="steady_stride_v0/Documentation/Test Videos - According to S.No in PPT/Photos/Design.png" 
+       alt="Design Model" width="600"/>
+  <br><em>Robot Design Model</em>
+</p>
+
+<p align="center">
+  <img src="steady_stride_v0/Documentation/Test Videos - According to S.No in PPT/Photos/Gripper.png" 
+       alt="Gripper Closeup" width="600"/>
+  <br><em>4-Claw Gripper Closeup</em>
+</p>
+---
+
 ## Files & code (what's in this repo)
 - `arduino/lqr_bno055.ino` — LQR style controller that reads BNO055 orientation and uses wheel encoder feedback to compute wheel rate; published control law `u = -K x`. (Adapted from your BNO055 + encoder sketch.)
 - `arduino/pid_mpu6050.ino` — MPU6050 + PID loop implementation used in initial experiments (your PID sketch).  
@@ -65,14 +85,14 @@
   <img src="steady_stride_v0/Documentation/Test Videos - According to S.No in PPT/Photos/Cover Photo_1.jpg" 
        alt="Front View" width="600"/>
   <br>
-  <em>Figure 1 — Front View</em>
+  <em>Front View</em>
 </p>
 
 <p align="center">
   <img src="steady_stride_v0/Documentation/Test Videos - According to S.No in PPT/Photos/Cover Photo_2.jpg" 
        alt="Side View" width="600"/>
   <br>
-  <em>Figure 2 — Side View</em>
+  <em>Side View</em>
 </p>
 
 ---
