@@ -8,6 +8,10 @@ A ground-up robotics build that pairs a real-time embedded balancing controller 
 
 <br>
 
+<img src="media/steady-stride-field.jpg" alt="Steady Stride self-balancing robot during an outdoor field test" width="440">
+
+<br><br>
+
 ![Platform](https://img.shields.io/badge/Platform-Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![Language](https://img.shields.io/badge/Firmware-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Control](https://img.shields.io/badge/Control-PID%20%7C%20LQR-FF6F00?style=for-the-badge)
@@ -127,6 +131,14 @@ principled baseline for comparing controller performance.
 ---
 
 ## Hardware
+
+<div align="center">
+<img src="media/steady-stride-profile.jpg" alt="Steady Stride chassis, drivetrain and pan-tilt gripper" width="300">
+<br>
+<sub><i>Custom chassis with differential drivetrain, deployable stand, and a pan–tilt gripper head.</i></sub>
+</div>
+
+<br>
 
 | Subsystem        | Components                                                            |
 |------------------|----------------------------------------------------------------------|
